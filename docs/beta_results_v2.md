@@ -153,14 +153,28 @@ Notes: Phoenix Week43
 ## Beta Tester: Daniel (Dis: Dmich39; GH: Dmich39)
 Notes: Typical User, Non technical
 ### Platform & Environment
+Mini PC Nipogi ( similar to Mele) -Windows 11 FAMILY
+Lyon, France
+Canon EOS5D MKIII Lenses Canon 200 f2.8 x2 multipilcator, 100-400 Lens L ISII USM
 ...
 ### Test Areas
 ...
 ### Results
 ...
 ### Feedback
-...
+Before sharing any betat test result, I need clarification & support on how to install Driver 2.0:
+- before installing, I deleted Python 3.13.1 and Driver V1 ( V1 was installed and working perfectly well under Nina )
+- Installation Python V 3.13.5 with path : no issue
+- Then I had to find where is really the V2 driver to load & unzipp, as there a lot of mentions everywhere of the ABP driver, whether it is V1 or V2 , but nowhere there is a clear ' Download Here V2 Beta 2 driver' type of message. Then I had to try several of these zip files , never beeing confident it was the good one.
+- Installation : This is the second problem: When installing driver ( V2 presumably, after typing the 'pip install -r platforms/win/requirements.txt' command, I got at each & every line the message : "Requirements already satisfied " followed for most of the lines  by additional info starting with  Falcon .. Uvicorn.. Toml .. ephem .. click .. and many parameters.
+- It looks like deleting previous driver installation is not enough, there must be additional clean up to proceed, but which ones ? I dont' know ..
 
+- I the end, no specific error message, when Polaris and camera are ready I run the next step ( network wifi 1 wifi 2 ) as usual,  and I can run the driver without any problem.
+-  but : Is V2 driver installed , properly , partially or totally, I don't know , I'm not confortable at all with this V2 driver installation
+
+-  However , I have tried Nina of Stellarium after, it seems to work fine and properly identify & connect with Benro Polaris & camera
+
+  I need clarity on this before moving forward ....many thanks Daniel
 
 
 ## Beta Tester: Mark (FB: Richard Healey; GH: RjhNZ)
